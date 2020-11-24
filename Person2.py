@@ -35,6 +35,6 @@ person = Person(
     "jane.doe@example.com"
 )
 
-print(person.name)
+print(person.__dict__)
 print(person.email)
 print(person.age())

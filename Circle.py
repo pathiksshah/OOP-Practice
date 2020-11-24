@@ -10,6 +10,7 @@ class Circle():
         return (2*3.14*self.r)
     #testBelongs() method of the class which allows to test whether a point A(x, y) belongs to the circle C(O, r) or not.
     def testBelongs(self,x,y):
+        #calculate distance from center
         d = ((self.a-x)**2 + (self.b-y)**2)**0.5
         return d <= self.r
 
